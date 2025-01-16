@@ -23,7 +23,7 @@ pipeline{
                 sh 'mvn checkstyle:checkstyle'
             }
         }
-        stage('package with akshat'){
+        stage('package with shakeer'){
             steps{
                 sh 'mvn package'
             }
